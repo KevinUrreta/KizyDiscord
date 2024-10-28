@@ -187,7 +187,7 @@ class Music(commands.Cog):
             ctx.voice_client.play(song, after=lambda: asyncio.run_coroutine_threadsafe(self.nextSong(ctx), self.client.loop))
             data :dict = readDB()
             volume = data[str(ctx.guild.id)]["volume"]
-            ctx.voice_client.source.volume = volume / 100
+            ctx.voice_client.source.volume = volume
 
             kizy = discord.Embed(title="**Ahora suena**",color=discord.Color.purple(), timestamp=datetime.now())
             kizy.add_field(name="**Título**:",value=f"{song.title}",inline=False)
