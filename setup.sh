@@ -23,3 +23,5 @@ pip install discord.py ffmpeg yt_dlp PyNaCl googletrans
 
 # Ejecutar el script de Python
 echo Ya puedes ejecutar el script de Python
+
+# python3 -m pip install --upgrade yt-dlp -- Si no funciona al instalar

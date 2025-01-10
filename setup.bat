@@ -18,7 +18,7 @@ choco update
 rem Buscar el paquete ffmpeg
 echo Buscando el paquete ffmpeg...
 choco search ffmpeg
-
+@REM 
 rem Instalar ffmpeg
 echo Instalando ffmpeg...
 choco install ffmpeg -y

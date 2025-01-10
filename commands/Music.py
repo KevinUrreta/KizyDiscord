@@ -1,5 +1,5 @@
 import discord; from discord.ext import commands
-import spotipy; from spotipy.oauth2 import SpotifyClientCredentials
+# import spotipy; from spotipy.oauth2 import SpotifyClientCredentials
 import yt_dlp
 from datetime import datetime
 import requests
