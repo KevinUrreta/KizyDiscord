@@ -2,7 +2,7 @@ import discord; from discord.ext import commands
 import logging; import json; import os
 
 manejo = logging.basicConfig(filename='files/registro.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-token :str = 'MTIyNjIyNzcxMjQ4NjgwNTU2NQ.GIPg0k.jaP67KJWhpYxyY-nrUAczpBz3CDe2ovcy8BKCE'
+token :str = 'token'
 
 def getPrefix(self, ctx :commands.Context):
     """ Obtiene el prefijo del servidor de un archivo JSON. """
